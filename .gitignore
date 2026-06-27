@@ -1,2 +1,16 @@
-# Local Netlify folder
+# Secrets — NEVER commit
+.env.local
+.env
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Netlify
 .netlify
+
+# Mac junk
+.DS_Store
+.Rhistory
